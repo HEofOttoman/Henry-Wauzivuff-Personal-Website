@@ -3,11 +3,22 @@ img {
     width:250px;
 }
 
+#banner {
+    width: 250px;
+}
+
 body {
-    text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(41, 42, 48);
-    color: rgb(255, 228, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    margin: 0;
+
+    background-color: #292a30;
+    color: #ffe4c4;
 }
 
 /*
