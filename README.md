@@ -1,2 +1,2 @@
-# Heny Wauzivuff Personal Website
-A personal website for Henry
+# Henry Wauzivuff Personal Website
+A personal website for me :>
