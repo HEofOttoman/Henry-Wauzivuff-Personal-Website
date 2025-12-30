@@ -7,6 +7,29 @@ img {
     width: 250px;
 }
 
+a:link {
+    color: aliceblue;
+    
+}
+
+nav {
+    margin: 0 0 2rem
+}
+
+nav a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: snow;
+    text-decoration: underline;
+}
+
+header {
+    background-color: #292a30;
+}
+
 body {
     font-family: 'Courier New', Courier, monospace;
     display: flex;
@@ -26,3 +49,14 @@ h1 {
     text-align: ;
 }
 */
+
+#colorfooter {
+    background-color: #26272e;
+    min-width: 100rem;
+    max-width: fit-content;
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 10px 5%;
+}
