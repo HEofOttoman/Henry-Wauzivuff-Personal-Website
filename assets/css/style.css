@@ -1,0 +1,152 @@
+
+img {
+    width:250px;
+}
+
+#nav-icon {
+    width: px;
+    align-self: center;
+}
+
+a:link {
+    color: aliceblue;
+    
+}
+
+
+.global-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    margin: 0 0 2rem;
+    background-color: #222327; /*or #1d1e1e*/
+    min-width: 100%;
+    padding-bottom: 1rem;
+    color: #abb0bb;
+}
+
+.global-navbar a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.global-navbar a:hover {
+    color: snow;
+    text-decoration: underline;
+}
+
+header {
+    margin-top: 390px;
+    background-color: #27282c /*#292a30*/;
+    background-size: cover;
+    /*background-image: url("assets/Henry Wauzivuff Logo.png")*/;
+   
+    
+    min-width: 100%;
+
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+
+
+hr {
+    margin: 1.5rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 1000;
+    opacity: 0.25;
+    width: 50%;
+    
+}
+
+section {
+    margin-top: 50px;
+    margin-bottom: 25%;
+    max-width: fit-content;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    
+    justify-content: center;
+
+    padding: 5rem 1rem;
+    
+
+    box-sizing: border-box;  
+    
+}
+
+/*or .about-section-content*/ #about div {
+    line-height: 1.6;
+    /*font-size: rem;*/
+    width: 65%;
+    max-width: 600px;      /* keeps text from getting too wide */
+    flex-shrink: 0;
+    word-wrap: break-word;
+    flex: 0 0 auto;
+}
+
+/*or .about-section-content*/ #skills div {
+    line-height: 1.6;
+    /*font-size: rem;*/
+    width: 25rem;
+    max-width: 600px;      /* keeps text from getting too wide */
+    flex-shrink: 0;
+    word-wrap: break-word;
+    flex: 0 0 auto;
+}
+
+#projects div {
+    line-height: 1.6;
+    /*font-size: rem;*/
+    width: 65%;
+    max-width: 600px;      /* keeps text from getting too wide */
+    flex-shrink: 0;
+    word-wrap: break-word;
+    flex: 0 0 auto;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    margin: 0;
+    font-size: larger;
+
+    background-color: #292a30;
+    color: #ffe4c4;
+}
+
+/*
+h1 {
+    text-align: ;
+}
+*/
+
+h2 {
+    text-decoration: underline;
+}
+
+#colorfooter {
+    background-color: #26272e;
+    min-width: 100%;
+    max-width: fit-content;
+    min-height: 100%;
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 10px 5%;
+}
