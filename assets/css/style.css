@@ -1,11 +1,114 @@
 
-img {
-    width:250px;
+/*Navbar logo*/
+#nav-icon {
+    width: 100px;
+    margin-right: 1rem;
+    /*align-self: center;*/
 }
 
-#nav-icon {
-    width: px;
-    align-self: center;
+
+/* old navbar code: .global-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    
+    
+    align-items: flex-start;
+
+    margin: 0 0 2rem;
+    background-color: #222327; /*or #1d1e1e*/
+    /*min-width: 100%;
+    padding-bottom: 1rem;
+    color: #abb0bb;
+}*/
+
+/*The Big Navigation Bar At The Top Of The Website*/
+.global-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    
+    display: flex;
+    align-items: flex-start;
+
+    padding: 2rem 1rem /*1rem*/;
+    background-color: #222327; /*or #1d1e1e*/
+    min-width: 100%;
+    /*padding-bottom: 1rem;*/
+    color: #abb0bb;
+    box-sizing: border-box;
+}
+
+.navbar-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.global-title {
+    margin: 0 0 0.5rem 0;
+    display: flex;
+    font-size: 2rem;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-links a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.navbar-links a:hover {
+    color: snow;
+    text-decoration: underline;
+}
+
+
+header {
+    margin-top: 150px;
+    background-color: /*#27282c*/ #292a30;
+    background-size: cover;
+    /*background-image: url("assets/Henry Wauzivuff Logo.png")*/;
+   
+    line-height: 2rem;
+    min-width: 100%;
+
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+
+/*
+h1 {
+    text-align: ;
+}
+*/
+
+h2 {
+    text-decoration: underline;
+}
+
+hr {
+    margin: 1.5rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 1000;
+    opacity: 0.25;
+    width: 25%;
+    
+}
+
+li {
+    line-height: 2rem;
+    text-align: justify;
 }
 
 a:link {
@@ -14,57 +117,11 @@ a:link {
 }
 
 
-.global-navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-
-    margin: 0 0 2rem;
-    background-color: #222327; /*or #1d1e1e*/
-    min-width: 100%;
-    padding-bottom: 1rem;
-    color: #abb0bb;
-}
-
-.global-navbar a {
-    color: aliceblue;
-    text-decoration: none;
-}
-
-.global-navbar a:hover {
-    color: snow;
-    text-decoration: underline;
-}
-
-header {
-    margin-top: 390px;
-    background-color: #27282c /*#292a30*/;
-    background-size: cover;
-    /*background-image: url("assets/Henry Wauzivuff Logo.png")*/;
-   
-    
-    min-width: 100%;
-
-    padding-top: 1rem;
-    padding-bottom: 5rem;
-}
-
-
-hr {
-    margin: 1.5rem 0;
-    color: inherit;
-    background-color: currentColor;
-    border: 1000;
-    opacity: 0.25;
-    width: 50%;
-    
-}
-
 section {
     margin-top: 50px;
     margin-bottom: 25%;
     max-width: fit-content;
+    scroll-margin-top: 200px;
 }
 
 #about {
@@ -88,17 +145,17 @@ section {
     line-height: 1.6;
     /*font-size: rem;*/
     width: 65%;
-    max-width: 600px;      /* keeps text from getting too wide */
+    max-width: 600px;    /* keeps text from getting too wide */
     flex-shrink: 0;
     word-wrap: break-word;
     flex: 0 0 auto;
 }
 
-/*or .about-section-content*/ #skills div {
+/*or .about-section-content*/ #hobbies div {
     line-height: 1.6;
     /*font-size: rem;*/
     width: 25rem;
-    max-width: 600px;      /* keeps text from getting too wide */
+    max-width: 600px;   /* keeps text from getting too wide */
     flex-shrink: 0;
     word-wrap: break-word;
     flex: 0 0 auto;
@@ -108,7 +165,7 @@ section {
     line-height: 1.6;
     /*font-size: rem;*/
     width: 65%;
-    max-width: 600px;      /* keeps text from getting too wide */
+    max-width: 600px; /* keeps text from getting too wide */
     flex-shrink: 0;
     word-wrap: break-word;
     flex: 0 0 auto;
@@ -125,21 +182,13 @@ body {
     margin: 0;
     font-size: larger;
 
-    background-color: #292a30;
+    background-color: /*#292a30*/ #27282c /*#27282c*/;
     color: #ffe4c4;
 }
 
-/*
-h1 {
-    text-align: ;
-}
-*/
+.global-footer {
+    margin-top: 100px;
 
-h2 {
-    text-decoration: underline;
-}
-
-#colorfooter {
     background-color: #26272e;
     min-width: 100%;
     max-width: fit-content;
