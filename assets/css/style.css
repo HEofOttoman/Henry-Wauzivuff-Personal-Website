@@ -162,10 +162,10 @@ section {
     
 }
 
-/*oh thats why .projects*/ #projects {
+/*oh thats why .projects*/ .projects {
    margin-top: 5rem;
    display: flex;
-   flex-direction: row;
+   flex-direction:column;
    justify-content: center;
    gap: 3%;
 }
