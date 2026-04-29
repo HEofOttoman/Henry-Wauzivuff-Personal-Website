@@ -162,6 +162,30 @@ section {
     
 }
 
+.projects {
+   margin-top: 5rem;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 3%; 
+}
+
+.project {
+    width: 100%; /*30%;*/
+    display: block;
+    background-color: #292a30;
+
+}
+
+.portrait {
+    position: relative;
+    z-index: inherit;
+    display: flex;
+    background-color: #292a30;
+    width: 100%;
+    border-radius: 2rem 2rem 0 0;
+}
+
 /*or .about-section-content*/ #about div {
     line-height: 1.6;
     /*font-size: rem;*/
