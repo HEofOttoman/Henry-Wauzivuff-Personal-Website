@@ -248,6 +248,13 @@ body {
 
 }
 
+main {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;   /* centers everything in main, fix broken adding main */
+    padding: 0 1rem;
+}
+
 .global-footer {
     margin-top: 100px;
 
