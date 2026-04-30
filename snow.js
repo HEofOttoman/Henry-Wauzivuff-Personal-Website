@@ -1,7 +1,7 @@
 /* https://dev.to/codebubb/javascript-snow-52im */
 
-const NUMBER_OF_SNOWFLAKES = 300;
-const MAX_SNOWFLAKE_SIZE = 5;
+const NUMBER_OF_SNOWFLAKES = 100;
+const MAX_SNOWFLAKE_SIZE = 3;
 const MAX_SNOWFLAKE_SPEED = 2;
 const SNOWFLAKE_COLOUR = '#ddd';
 
@@ -64,6 +64,7 @@ window.addEventListener('resize', () => {
     canvas.height = window.innerHeight;
 
 });
+
 
 window.addEventListener('scroll', () => {
     canvas.style.top = `${window.scrollY}px`;
