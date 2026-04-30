@@ -1,8 +1,8 @@
 /* https://dev.to/codebubb/javascript-snow-52im */
 
-const NUMBER_OF_SNOWFLAKES = 100;
+const NUMBER_OF_SNOWFLAKES = 50;
 const MAX_SNOWFLAKE_SIZE = 3;
-const MAX_SNOWFLAKE_SPEED = 2;
+const MAX_SNOWFLAKE_SPEED = 1;
 const SNOWFLAKE_COLOUR = '#c6e4ff';
 
 const snowflakes = [];
