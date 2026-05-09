@@ -1,3 +1,7 @@
+:root {
+    /* Global variables */
+}
+
 
 /*Navbar logo*/
 #nav-icon {
@@ -213,14 +217,66 @@ section {
     flex: 0 0 auto;
 }
 
-#projects div {
+ #projects div {
     line-height: 1.6;
-    /*font-size: rem;*/
+    font-size: rem;
     width: 65%;
-    max-width: 600px; /* keeps text from getting too wide */
+    max-width: 600px; /*keeps text from getting too wide*/
     flex-shrink: 0;
     word-wrap: break-word;
     flex: 0 0 auto;
+} 
+
+/* #projects > h1::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.25em;
+    bottom: 0.25em;
+    width: 4px;
+    background: var(--accent);
+    border-radius: 2px;
+    box-shadow: 0 0 12px var(--accent-dim);
+} */
+
+.project:hover {
+    transform: transLateY(-6px);
+    box-shadow: 0 14px 30px -14px
+    0 0 1px var( -- accent-dim), 0 0 24px
+    -8px H var( -- accent-dim);
+    border-color: #000000cc, 0var(-- accent-dim);
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.25rem;
+    overflow: hidden;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.06);
+    border-image: initial;
+    background: var(--bg-3);
+    transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.35s, border-color 0.35s;
+}
+
+/* Profile pic with subtle glow + hover */
+.pfp {
+    height: 12rem;
+    border-radius: 2rem;
+    box-shadow:
+        0 0 0 1px #ffffff1a,
+        0 10px 40px -10px #f5e97a33,
+        0 20px 60px -20px #00000080;
+    transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.4s ease;
+}
+
+.pfp:hover {
+    transform: translateY(-4px) rotate(-1.5deg);
+    box-shadow:
+        0 0 0 1px #ffffff22,
+        0 14px 50px -10px #f5e97a55,
+        0 24px 70px -20px #000000a0;
 }
 
 
