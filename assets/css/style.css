@@ -1,5 +1,11 @@
 :root {
     /* Global variables */
+    --accent: #f5e97a;
+    --accent-dim: #f5e97a33;
+    /* --bg: #0f0f13;
+    --bg-2: #1a1a1f;
+    --bg-3: #212129;
+    --muted: #9a9ab0; */
 }
 
 
@@ -75,12 +81,6 @@ header {
     padding-top: 1rem;
     padding-bottom: 5rem;
 }
-
-/*
-h1 {
-    text-align: ;
-}
-*/
 
 h2 {
     text-decoration: underline;
@@ -158,11 +158,11 @@ section {
     width: 100%;
 }
 
-/*debugging thing thanks jippity
-* {
+/*debugging thing thanks jippity*/
+/* * {
     outline: 1px solid red;
-}
-*/
+} */
+ 
 
 .projects {
    margin-top: 5rem;
@@ -207,15 +207,6 @@ section {
     flex: 0 0 auto;
 }
 
-/*or .about-section-content*/ #hobbies div {
-    line-height: 1.6;
-    /*font-size: rem;*/
-    width: 25rem;
-    max-width: 600px;   /* keeps text from getting too wide */
-    flex-shrink: 0;
-    word-wrap: break-word;
-    flex: 0 0 auto;
-}
 
  #projects div {
     line-height: 1.6;
@@ -227,24 +218,17 @@ section {
     flex: 0 0 auto;
 } 
 
-/* #projects > h1::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0.25em;
-    bottom: 0.25em;
-    width: 4px;
-    background: var(--accent);
-    border-radius: 2px;
-    box-shadow: 0 0 12px var(--accent-dim);
-} */
 
 .project:hover {
     transform: transLateY(-6px);
-    box-shadow: 0 14px 30px -14px
-    0 0 1px var( -- accent-dim), 0 0 24px
-    -8px H var( -- accent-dim);
-    border-color: #000000cc, 0var(-- accent-dim);
+    box-shadow: 
+        0 14px 30px -14px #000000cc,
+        0 0 1px var(--accent-dim), 0 0 24px
+        -8px H var(--accent-dim);
+        /* 0 0 0 1px #ffffff22,
+        0 14px 50px -10px #f5e97a55,
+        0 24px 70px -20px #000000a0; */
+    border-color: #000000cc, var(--accent-dim);
 }
 
 .project {
