@@ -173,13 +173,6 @@ section {
    gap: 1.5rem;
 }
 
-.project {
-    width: 100%; /*30%;*/
-    display: block;
-    background-color: #292a30;
-    
-}
-
 .portrait {
     position: relative;
     z-index: inherit;
@@ -244,10 +237,29 @@ section {
     transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.35s, border-color 0.35s;
 }
 
+.project {
+    width: 100%; /*30%;*/
+    display: block;
+    background-color: #292a30;
+    
+}
+
+.projdesc { 
+    /* position: relative;
+    z-index: 1;
+    background-color: var(--bg-3);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 1.25rem 1.25rem 1.4rem;
+    gap: 0.4rem; */
+
+}
+
 /* Profile pic with subtle glow + hover */
 .pfp {
-    height: 12rem;
-    border-radius: 2rem;
+    height: 250px;
+    /* border-radius: 2rem; */
     box-shadow:
         0 0 0 1px #ffffff1a,
         0 10px 40px -10px #f5e97a33,
@@ -256,7 +268,7 @@ section {
 }
 
 .pfp:hover {
-    transform: translateY(-4px) rotate(-1.5deg);
+    /* transform: translateY(-4px) rotate(-1.5deg); */
     box-shadow:
         0 0 0 1px #ffffff22,
         0 14px 50px -10px #f5e97a55,
