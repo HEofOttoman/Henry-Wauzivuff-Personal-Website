@@ -23,3 +23,5 @@ Features:
 ## Credits
 - Henry Wauzivuff
 - Erdo & Nasser Abdollahi
+
+Font Vive Le Vie ©HenryWauzivuff 2026
