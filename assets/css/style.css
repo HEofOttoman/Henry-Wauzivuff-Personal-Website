@@ -1,7 +1,23 @@
+/* Global palette */
 :root {
-    /* Global variables */
     --accent: #f5e97a;
     --accent-dim: #f5e97a33;
+    
+    /* # Viva La Vida Palette */
+    --vlv-gold: #907B4C;
+    --vlv-black: #020100;
+    --vlv-darkbrown: #0E0800;
+    --vlv-lighter-black: #090805;
+    
+    /* # Original Palette */
+    --text-1: #ffe4c4;
+    --text-2: #abb0bb;
+    --text-3: aliceblue;
+    --bg-1: #27282c; /* Main, used in body, darkest */
+    --bg-2: #222327; /* Global navbar */
+    --hero: #292a30; /* Used for the hero header, lightest */
+    
+
     /* --bg: #0f0f13;
     --bg-2: #1a1a1f;
     --bg-3: #212129;
@@ -49,9 +65,11 @@
 
     padding: 1rem 1rem 2rem;
     background-color: #222327; /*or #1d1e1e*/
+    /* background-color: var(--vlv-black); */
     width: 100%;
     
     color: #abb0bb;
+    /* color: var(--vlv-gold); */
     box-sizing: border-box;
 
     /* font-family: vive-la-vie; */
@@ -294,7 +312,7 @@ section {
 }
 
 .project {
-    display: flex;
+    display: block;
     flex-direction: column;
     border-radius: 1.25rem;
     overflow: hidden;
