@@ -237,7 +237,7 @@ section {
    margin-top: 5rem;
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-   overflow: hidden;
+   /* overflow: hidden; removes the overflow issue */
    justify-content: center;
    gap: 1.5rem;
 }
@@ -284,12 +284,12 @@ section {
 .project:hover {
     transform: transLateY(-6px);
     box-shadow: 
-        0 14px 30px -14px #000000cc,
+        /* 0 14px 30px -14px #000000cc,
         0 0 1px var(--accent-dim), 0 0 24px
-        -8px H var(--accent-dim);
-        /* 0 0 0 1px #ffffff22,
+        -8px H var(--accent-dim); */
+        0 0 0 1px #907B4C,
         0 14px 50px -10px #f5e97a55,
-        0 24px 70px -20px #000000a0; */
+        0 24px 70px -20px #000000a0;
     border-color: #000000cc, var(--accent-dim);
 }
 
